@@ -3,18 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html,body{
     height: 100%;
     width: 100%;
 }
-
 body{
     background-color: royalblue;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #card{
     height: 400px;
     width: 300px;

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+body{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.container .cursor{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: rgba(225, 3, 3, 0.32);  
+    border: none; 
+}
+.container h1{
+    color: rgb(219, 219, 219);
+}
