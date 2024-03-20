@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategray;
+}
+
+#container{
+    height: 350px;
+    width: 300px;
+    background-color: black;
+}
+
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: top; */
+}
+
+#container i{
+    color: white;
+    font-size: 83px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform 0.4s;
+}
