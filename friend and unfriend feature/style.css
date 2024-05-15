@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 9px;
+}
+
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 9px 9px 9px;
+    background-color: rgba(255, 225, 0, 0.879);
+}
+
+#card button{
+    padding: 12px 20px;
+    font-weight: 700;
+    border-radius: 60px ;
+    border: none;
+    background-color: royalblue;
+    color: rgb(18, 0, 0);
+    cursor: pointer;
+    position: relative;
+    top: 13px;
+    box-shadow: 5px 5px 9px;
+}
+
+#card #isfriendStatus{
+    background-color: rgb(111, 104, 104);
+    position: relative;
+    top: 23px;
+    color: black;
+}
