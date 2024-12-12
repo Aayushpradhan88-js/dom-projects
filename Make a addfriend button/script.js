@@ -7,7 +7,7 @@ addFriend.addEventListener("click", function(){
 });
 
 stranger.addEventListener("click", function(){
-    isStatus.innerHTML = "Undost";
-    isStatus.style.color =  "rgb(111, 104, 104)";
-
+    isStatus.innerHTML = "Unfriend";
+    isStatus.style.color =  "rgb(111, 104, 104)"
+    isStatus.style.color = red
 })
